@@ -22,20 +22,5 @@ class PersegiPanjang
         
 };
 
-class Lingkaran
-{
-    public:
-        int jarijari;
 
-        void input()
-        {
-            cout<<"Masukan Jari-Jari : ";
-            cin >> jarijari;
-        }
-
-        int luasLingkaran (int r)
-        {
-            return 3.14 * r * r;
-        }
-};
 
